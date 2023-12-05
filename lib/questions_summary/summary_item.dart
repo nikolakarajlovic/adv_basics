@@ -20,7 +20,8 @@ class SummaryItem extends StatelessWidget {
             QuestionIdentifier(
                 isCorrectAnswer: isCorrectAnswer,
                 questionIndex: itemData['question'] as int),
-            const SizedBox(width: 20),
+              // questionIndex: int.tryParse(itemData['question'].toString()) ?? 0)
+          const SizedBox(width: 20),
             Expanded(
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
