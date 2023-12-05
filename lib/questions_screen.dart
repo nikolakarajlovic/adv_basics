@@ -29,7 +29,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
   @override
   Widget build(context) {
-    final currentQuestion = questions[currentQuestionIndex];
+    final currentQuestion = questions [currentQuestionIndex];
 
 
     return SizedBox(
