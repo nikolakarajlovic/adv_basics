@@ -19,7 +19,7 @@ class SummaryItem extends StatelessWidget {
           children: [
             QuestionIdentifier(
                 isCorrectAnswer: isCorrectAnswer,
-                questionIndex: itemData['question'] as int),
+                questionIndex: itemData['question_index'] as int),
               // questionIndex: int.tryParse(itemData['question'].toString()) ?? 0)
           const SizedBox(width: 20),
             Expanded(
